@@ -27,3 +27,8 @@ let tipCalculator = function(priceForTheOrder, tipPercentage = 20) {
 };
 
 console.log('order 1: ' + tipCalculator(100, 30));
+/*
+  Note about null and undefined
+  undefined is the default value assigned by JS when a variable is created and has not been assigned value. 
+  We could also use undefined to signify value being re-assigned by the programmer but, this leads to a confusion whether the value was assigned by JS or programmer. Hence, to avoid this if the programmer needs to re-assign the state of the variable they can use null
+ */
